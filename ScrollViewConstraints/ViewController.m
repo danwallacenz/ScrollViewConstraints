@@ -60,7 +60,7 @@
     }
     
     self.contentView.frame = CGRectMake(0,0,contentWidth,contentHeight * 2);
-    [self.scrollView setContentSize:CGSizeMake(self.contentView.bounds.size.width,self.contentView.bounds.size.height)];
+    [self.scrollView setContentSize:CGSizeMake(contentWidth,contentHeight * 2)];
 }
 
 
