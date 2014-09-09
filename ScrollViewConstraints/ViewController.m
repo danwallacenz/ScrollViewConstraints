@@ -65,7 +65,8 @@
 //                                                  views:NSDictionaryOfVariableBindings(firstView)]];
     
     [self.contentView addConstraints:
-     [NSLayoutConstraint constraintsWithVisualFormat:@"H:|-[firstView(==80)]-(==20@999)-|"
+//     [NSLayoutConstraint constraintsWithVisualFormat:@"H:|-[firstView(==80)]-(==20@999)-|"
+       [NSLayoutConstraint constraintsWithVisualFormat:@"H:|-[firstView]-(==20@999)-|"
                                              options:0
                                              metrics:0
                                                views:NSDictionaryOfVariableBindings(firstView)]];
@@ -82,7 +83,8 @@
                                                views:NSDictionaryOfVariableBindings(firstView,secondView)]];
     
     [self.contentView addConstraints:
-     [NSLayoutConstraint constraintsWithVisualFormat:@"V:|-[firstView(==80)]-(>=20)-[secondView(firstView)]-|"
+//     [NSLayoutConstraint constraintsWithVisualFormat:@"V:|-[firstView(==80)]-(>=20)-[secondView(firstView)]-|"
+     [NSLayoutConstraint constraintsWithVisualFormat:@"V:|-[firstView]-(>=20)-[secondView(firstView)]-|"
                                              options:0
                                              metrics:0
                                                views:NSDictionaryOfVariableBindings(firstView,secondView)]];
