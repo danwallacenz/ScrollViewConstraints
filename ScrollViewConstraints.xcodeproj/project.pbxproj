@@ -22,6 +22,7 @@
 		CB4D646319BF10D600B1AC7F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CB4D646119BF10D600B1AC7F /* InfoPlist.strings */; };
 		CB4D646519BF10D600B1AC7F /* ScrollViewConstraintsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CB4D646419BF10D600B1AC7F /* ScrollViewConstraintsTests.m */; };
 		CB4D647019BF179200B1AC7F /* DWDeviceUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = CB4D646F19BF179200B1AC7F /* DWDeviceUtils.m */; };
+		E052DFCA19BFBF9F0070CD29 /* DRWView.m in Sources */ = {isa = PBXBuildFile; fileRef = E052DFC919BFBF9F0070CD29 /* DRWView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +57,8 @@
 		CB4D646419BF10D600B1AC7F /* ScrollViewConstraintsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScrollViewConstraintsTests.m; sourceTree = "<group>"; };
 		CB4D646E19BF179200B1AC7F /* DWDeviceUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DWDeviceUtils.h; sourceTree = "<group>"; };
 		CB4D646F19BF179200B1AC7F /* DWDeviceUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DWDeviceUtils.m; sourceTree = "<group>"; };
+		E052DFC819BFBF9F0070CD29 /* DRWView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DRWView.h; sourceTree = "<group>"; };
+		E052DFC919BFBF9F0070CD29 /* DRWView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DRWView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +125,8 @@
 				CB4D644B19BF10D600B1AC7F /* Main.storyboard */,
 				CB4D644E19BF10D600B1AC7F /* ViewController.h */,
 				CB4D644F19BF10D600B1AC7F /* ViewController.m */,
+				E052DFC819BFBF9F0070CD29 /* DRWView.h */,
+				E052DFC919BFBF9F0070CD29 /* DRWView.m */,
 				CB4D645119BF10D600B1AC7F /* Images.xcassets */,
 				CB4D644019BF10D600B1AC7F /* Supporting Files */,
 			);
@@ -257,6 +262,7 @@
 				CB4D645019BF10D600B1AC7F /* ViewController.m in Sources */,
 				CB4D644A19BF10D600B1AC7F /* AppDelegate.m in Sources */,
 				CB4D647019BF179200B1AC7F /* DWDeviceUtils.m in Sources */,
+				E052DFCA19BFBF9F0070CD29 /* DRWView.m in Sources */,
 				CB4D644619BF10D600B1AC7F /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -462,6 +468,7 @@
 				CB4D646A19BF10D600B1AC7F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CB4D646B19BF10D600B1AC7F /* Build configuration list for PBXNativeTarget "ScrollViewConstraintsTests" */ = {
 			isa = XCConfigurationList;
@@ -470,6 +477,7 @@
 				CB4D646D19BF10D600B1AC7F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
