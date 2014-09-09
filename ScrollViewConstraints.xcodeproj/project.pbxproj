@@ -21,6 +21,7 @@
 		CB4D645B19BF10D600B1AC7F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4D643D19BF10D600B1AC7F /* UIKit.framework */; };
 		CB4D646319BF10D600B1AC7F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CB4D646119BF10D600B1AC7F /* InfoPlist.strings */; };
 		CB4D646519BF10D600B1AC7F /* ScrollViewConstraintsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CB4D646419BF10D600B1AC7F /* ScrollViewConstraintsTests.m */; };
+		CB4D647019BF179200B1AC7F /* DWDeviceUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = CB4D646F19BF179200B1AC7F /* DWDeviceUtils.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		CB4D646019BF10D600B1AC7F /* ScrollViewConstraintsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ScrollViewConstraintsTests-Info.plist"; sourceTree = "<group>"; };
 		CB4D646219BF10D600B1AC7F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		CB4D646419BF10D600B1AC7F /* ScrollViewConstraintsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScrollViewConstraintsTests.m; sourceTree = "<group>"; };
+		CB4D646E19BF179200B1AC7F /* DWDeviceUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DWDeviceUtils.h; sourceTree = "<group>"; };
+		CB4D646F19BF179200B1AC7F /* DWDeviceUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DWDeviceUtils.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +115,8 @@
 		CB4D643F19BF10D600B1AC7F /* ScrollViewConstraints */ = {
 			isa = PBXGroup;
 			children = (
+				CB4D646E19BF179200B1AC7F /* DWDeviceUtils.h */,
+				CB4D646F19BF179200B1AC7F /* DWDeviceUtils.m */,
 				CB4D644819BF10D600B1AC7F /* AppDelegate.h */,
 				CB4D644919BF10D600B1AC7F /* AppDelegate.m */,
 				CB4D644B19BF10D600B1AC7F /* Main.storyboard */,
@@ -251,6 +256,7 @@
 			files = (
 				CB4D645019BF10D600B1AC7F /* ViewController.m in Sources */,
 				CB4D644A19BF10D600B1AC7F /* AppDelegate.m in Sources */,
+				CB4D647019BF179200B1AC7F /* DWDeviceUtils.m in Sources */,
 				CB4D644619BF10D600B1AC7F /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
